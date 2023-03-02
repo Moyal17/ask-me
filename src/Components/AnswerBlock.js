@@ -1,5 +1,4 @@
-import {InputGroup, Form, Col} from 'react-bootstrap';
-import Input from "./Input";
+import {Col} from 'react-bootstrap';
 
 function AnswerBlock(props) {
   return (

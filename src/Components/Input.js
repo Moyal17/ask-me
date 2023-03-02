@@ -1,9 +1,9 @@
 import { InputGroup, Form} from 'react-bootstrap';
-import {apiMethods} from "../services/apiService";
+import apiService from "../services/apiService";
 
 
 function Input() {
-  apiMethods.askQuestion({question: ''})
+  apiService.askQuestion({question: ''})
 
   return (
     <InputGroup size="lg" className="mb-3">

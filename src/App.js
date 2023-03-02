@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container, Row, Col, InputGroup, Form} from 'react-bootstrap';
+import {Container, Row, Col } from 'react-bootstrap';
 import Input from './Components/Input'
 import AnswerBlock from './Components/AnswerBlock'
 import './App.css';
