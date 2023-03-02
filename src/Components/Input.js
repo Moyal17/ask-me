@@ -1,6 +1,9 @@
 import { InputGroup, Form} from 'react-bootstrap';
+import {apiMethods} from "../services/apiService";
 
 function Input() {
+  apiMethods.askQuestion({question: ''})
+
   return (
     <InputGroup size="lg" className="mb-3">
       <InputGroup.Text id="basic-addon3">
