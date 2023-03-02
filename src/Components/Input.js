@@ -1,6 +1,7 @@
 import { InputGroup, Form} from 'react-bootstrap';
 import {apiMethods} from "../services/apiService";
 
+
 function Input() {
   apiMethods.askQuestion({question: ''})
 

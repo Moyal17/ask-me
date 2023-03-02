@@ -29,4 +29,4 @@ const apiMethods = {
   askQuestion: body => askMeClient.put('/askQuestion', body)
 };
 
-export { apiMethods };
+export default apiMethods;
